@@ -1,10 +1,13 @@
 .App{
   text-align: center;
 }
+body {
+  font-family: 'Playwrite CU', sans-serif;
+}
 
 a{
   text-decoration: none;
-  color: #000000;
+  color: #000000;  
 }
 
 h1{
@@ -111,3 +114,16 @@ button.trigger{
 .hidden{
   display: none;
 }
+
+.logo{
+  display: flex ;
+  margin-left: 250px;
+}
+
+.logo a{
+margin-top: 20px;
+margin-left: 10px;
+
+}
+
+
