@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 import './AddTask.css'
 
-function AddTask() {
+function AddTask({tasks,setTasks}) {
     const [taskValue,setTaskValue]=useState("");
     const[taskStatus,setTaskStatus]=useState(false);
 
@@ -27,6 +27,7 @@ function AddTask() {
         name:taskValue,
         completed:Boolean(taskStatus)
     }
+    setTasks([...tasks,task]);
     handleReset()
     console.log(task)
 

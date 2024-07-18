@@ -4,9 +4,9 @@ import Card from './Card';
 import BoxCard from './BoxCard';
 import './TaskList.css'
 
-function TaskList() {
+function TaskList({tasks,setTasks}) {
 
-const [tasks ,setTasks]=useState([{id:1,name:"Clean Room",completed:true},{id:2,name:"Study React",completed:false},{id:3,name:"Light Up",completed:false}]);
+
 const[show,setShow]=useState(true);
 
 function handleDelete(id){

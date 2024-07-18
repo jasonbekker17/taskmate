@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
 button{
     padding: 5px 10px;
     border: 0px;
@@ -7,4 +15,10 @@ button{
     cursor: pointer;
     background-color: darkslateblue;
     color: #FFFFFF;
+  }
+  main{
+    min-height: 90vh;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
   }
